@@ -1,0 +1,21 @@
+services:
+  homework1:
+    build:
+      ./
+    command:
+      python3 ./homework1.py
+  homework2:
+    build:
+      ./
+    command:
+      python3 ./homework2.py
+  homework31:
+    build:
+      ./
+    command:
+      python3 ./homework3.1.py
+  homework32:
+    build:
+      ./
+    command:
+      python3 ./homework3.2.py
